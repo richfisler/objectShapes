@@ -31,7 +31,7 @@ public class Main extends JFrame {
                         ||((circlelist.get(i).getX() + circlelist.get(i).getD() < circlelist.get(i+1).getX() + circlelist.get(i+1).getD() && circlelist.get(i).getX() + circlelist.get(i).getD() > circlelist.get(i+1).getX()))
                         && (circlelist.get(i).getY() < circlelist.get(i+1).getY() + circlelist.get(i+1).getD() && circlelist.get(i).getY() > circlelist.get(i+1).getY())
                         ||((circlelist.get(i).getY() + circlelist.get(i).getD() < circlelist.get(i+1).getY() + circlelist.get(i+1).getD() && circlelist.get(i).getY() + circlelist.get(i).getD() > circlelist.get(i+1).getY()))){
-                    circlelist.get(i).setC(Color.BLUE);
+                    circlelist.get(i).setC(Color.GREEN);
                     circlelist.get(i+1).setC(Color.BLUE);
                 }
                 else{
